@@ -1,0 +1,86 @@
+@import 'font-awesome';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Kristi';
+
+/* =Typographical Mixins/Functions
+-------------------------------------------------------------- */
+
+/**
+ * PX to Rem Sizing
+ *
+ * How to use
+ * @include fontSize(20px);
+ *
+ * Ouputs —
+ * font-size: 20px;
+ * font-size: 1.25rem;
+ */
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+/* =Typography
+-------------------------------------------------------------- */
+
+.wf-loading {
+	visibility: hidden;
+    font-family: $base-font-family;
+}
+.wf-active {
+	visibility: visible;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    @include fontSize($base-font-size);
+    font-family: $base-font-family;
+    color:$bg_grey;
+}
+h1, h2, h3, h4, h5, h6 {
+    @include clearfix;
+    clear: both;
+    float: none;
+    line-height: 1.25em;
+    margin-bottom: 5px;
+    @include font-smoothing(on);
+}
+h1 {
+    @include fontSize(29px);
+    font-weight:700;
+}
+h2 {
+    @include fontSize(22px);
+    font-weight:500;
+}
+h3 {
+    @include fontSize(13px);
+    font-weight:900;
+}
+h4 {
+    @include fontSize(11px);
+    font-weight:700;
+}
+h5 {
+    @include fontSize(11px);
+}
+h6 {
+    @include fontSize(11px);
+}
+
+a{
+	text-decoration: none;
+	@include font-smoothing('on');
+
+}
+
+.intro-section{
+	@include font-smoothing(on);
+}

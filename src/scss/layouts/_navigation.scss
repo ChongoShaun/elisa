@@ -1,0 +1,15 @@
+.menu{
+	margin:0;
+	@include pad(20px 0);
+	li{
+		display:inline;
+		padding-right:20px;
+	}
+	a{
+		color:#000;
+		text-transform: uppercase;
+		&:hover{
+			color:#666;
+		}
+	}
+}

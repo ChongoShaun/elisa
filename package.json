@@ -1,0 +1,37 @@
+{
+  "name": "elisakeanedesign",
+  "author": "Shaun Rowe",
+  "email": "Shaun@lengthofdaylight.com",
+  "url": "http://elisakeanedesign.com",
+  "description": "Elisa Keane Design Site",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "*",
+    "gulp-cssnano": "*",
+    "gulp-filesize": "0.0.6",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "*",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "*",
+    "gulp-util": "^3.0.7",
+    "jquery-slimscroll": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2",
+    "node-notifier": "^4.5.0",
+    "node-refills": "*"
+  },
+  "devDependencies": {
+    "gulp-ruby-sass": "^2.0.6"
+  }
+}

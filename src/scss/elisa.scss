@@ -1,0 +1,69 @@
+/* 
+Bark Design Chicago
+Description: Master file for loading organized SCSS files 
+Author: Shaun Rowe @ Bark Design Chicago
+Note: Inspired by Alex Vasquez, author of Some Like it Neat
+*/
+
+
+//--------------------------------------------------------------------------
+//  Base
+//--------------------------------------------------------------------------
+
+@import "layouts/normalize";
+
+//--------------------------------------------------------------------------
+//  Bourbon
+//--------------------------------------------------------------------------
+
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import 'grid-settings';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+
+//--------------------------------------------------------------------------
+//  Variables
+//--------------------------------------------------------------------------
+
+@import 'components/variables';
+@import "components/mixins";
+@import "components/colors";
+@import "components/rules";
+@import "components/decimals";
+
+
+//--------------------------------------------------------------------------
+//  Normalize
+//--------------------------------------------------------------------------
+@import 'layouts/normalize';
+
+//--------------------------------------------------------------------------
+//  Typography
+//--------------------------------------------------------------------------
+@import 'components/typography';
+
+//--------------------------------------------------------------------------
+//  Add Ons
+//--------------------------------------------------------------------------
+@import '../../bower_components/bourbon/app/assets/stylesheets/addons/clearfix';
+
+
+//--------------------------------------------------------------------------
+//  Structure
+//--------------------------------------------------------------------------
+
+@import 'layouts/structure';
+
+@import 'layouts/header';
+
+@import 'layouts/global';
+
+@import 'layouts/navigation';
+
+@import 'layouts/home';
+
+@import 'layouts/footer';
+
+
+
+
