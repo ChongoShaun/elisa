@@ -2,3 +2,10 @@
 	border:3px solid #000;
 	border-radius: 10px;
 }
+
+%primetime{
+	@include font-face(primetimeregular, '../fonts/primetime-webfont');	
+}
+%tikalsans{
+	@include font-face(tikal_sans_mediummedium, '../fonts/tikalsans-medium-webfont');		
+}

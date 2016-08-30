@@ -1,5 +1,9 @@
 @import 'font-awesome';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Kristi';
+@include font-face(primetimeregular, '../fonts/primetime-webfont');	
+@include font-face(tikal_sans_mediummedium, '../fonts/tikalsans-medium-webfont');		
+
+
 
 /* =Typographical Mixins/Functions
 -------------------------------------------------------------- */
@@ -42,7 +46,7 @@ html {
 body {
     @include fontSize($base-font-size);
     font-family: $base-font-family;
-    color:$bg_grey;
+    color:#000;
 }
 h1, h2, h3, h4, h5, h6 {
     @include clearfix;
@@ -51,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.25em;
     margin-bottom: 5px;
     @include font-smoothing(on);
+    color:#000;
 }
 h1 {
     @include fontSize(29px);
