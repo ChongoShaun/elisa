@@ -48,6 +48,12 @@
 						<?php 
 						wp_nav_menu( array('menu'   => 'Primary Navigation'));
 						?>
+						<div class="social-nav">
+							<ul>
+								<li><a href="#" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
 					</nav>
 				</div>
 			</header>

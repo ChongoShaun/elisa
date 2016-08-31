@@ -1,3 +1,6 @@
+.menu-main-navigation-container{
+	@include span-columns(8 of 12);
+}
 .menu{
 	margin:0;
 	@include pad(20px 0);
@@ -13,5 +16,22 @@
 		&:hover{
 			color:#666;
 		}
+	}
+}
+.social-nav{
+	@include span-columns(4 of 12);
+	
+	text-align: left;
+	ul{
+		margin:0;
+		padding:0 0 0 5px;
+	}
+	li{
+		display:inline;
+		padding-right:5px;
+	}
+	a{
+		color:#000;
+		font-size:16px;
 	}
 }
