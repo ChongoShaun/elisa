@@ -2,7 +2,7 @@
 	@include span-columns(8 of 12);
 }
 .menu{
-	margin:0;
+	margin:0 0 0 50px;
 	@include pad(20px 0);
 	li{
 		display:inline;
@@ -33,5 +33,11 @@
 	a{
 		color:#000;
 		font-size:16px;
+		&:hover{
+			color:#666;
+		}
+	}
+	.etsy{
+		font-weight:bold;
 	}
 }

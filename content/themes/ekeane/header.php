@@ -50,8 +50,10 @@
 						?>
 						<div class="social-nav">
 							<ul>
-								<li><a href="#" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.facebook.com/elisakeanedesign/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
 								<li><a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.instagram.com/elisakeanedesign/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.etsy.com/shop/ElisaKeaneDesign" target="_blank" class="etsy"><strong>E</strong></a></li>
 							</ul>
 						</div>
 					</nav>

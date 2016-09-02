@@ -5,10 +5,13 @@ Template Name: Home Page
 ?>
 
 <?php get_header(); ?>
+	<?php
+	$bg_pattern = wp_get_attachment_url( get_post_thumbnail_id() );		
+	?>
 
-	<!-- Setty Home
+	<!-- Elisa Home
 	================================================== -->
-	<div id="main-content-container" class="home">
+	<div id="main-content-container" class="home" style="background-image:url(<?php echo $bg_pattern;?>);">
 
 		<div class="hero-wrapper">
 			<div class="hero">
